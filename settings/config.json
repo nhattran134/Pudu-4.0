@@ -1,0 +1,10 @@
+{
+  "shardCount": 1,
+  "prefix": ".",
+  "status": "online",
+  "game": "Pudu's Dungeon",
+  "music": {
+    "status": true,
+    "passes": 1
+  }
+}

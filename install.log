@@ -1,0 +1,57 @@
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+../src/binding.cc: In function ‘void init(Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE)’:
+../src/binding.cc:643:8: warning: ‘Nan::Maybe<bool> Nan::ForceSet(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::PropertyAttribute)’ is deprecated [-Wdeprecated-declarations]
+   Nan::ForceSet(target, Nan::New<v8::String>("endianness").ToLocalChecked(), Nan::New<v8::String>(CheckEndianness()).ToLocalChecked(), static_cast<PropertyAttribute>(ReadOnly|DontDelete));
+        ^
+In file included from ../../nan/nan.h:197:0,
+                 from ../src/binding.cc:7:
+../../nan/nan_maybe_43_inl.h:116:35: note: declared here
+ NAN_DEPRECATED inline Maybe<bool> ForceSet(
+                                   ^
+../src/binding.cc:643:8: warning: ‘Nan::Maybe<bool> Nan::ForceSet(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::PropertyAttribute)’ is deprecated [-Wdeprecated-declarations]
+   Nan::ForceSet(target, Nan::New<v8::String>("endianness").ToLocalChecked(), Nan::New<v8::String>(CheckEndianness()).ToLocalChecked(), static_cast<PropertyAttribute>(ReadOnly|DontDelete));
+        ^
+In file included from ../../nan/nan.h:197:0,
+                 from ../src/binding.cc:7:
+../../nan/nan_maybe_43_inl.h:116:35: note: declared here
+ NAN_DEPRECATED inline Maybe<bool> ForceSet(
+                                   ^
+../src/binding.cc:643:187: warning: ‘Nan::Maybe<bool> Nan::ForceSet(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::PropertyAttribute)’ is deprecated [-Wdeprecated-declarations]
+   Nan::ForceSet(target, Nan::New<v8::String>("endianness").ToLocalChecked(), Nan::New<v8::String>(CheckEndianness()).ToLocalChecked(), static_cast<PropertyAttribute>(ReadOnly|DontDelete));
+                                                                                                                                                                                           ^
+In file included from ../../nan/nan.h:197:0,
+                 from ../src/binding.cc:7:
+../../nan/nan_maybe_43_inl.h:116:35: note: declared here
+ NAN_DEPRECATED inline Maybe<bool> ForceSet(
+                                   ^
+../src/binding.cc:644:8: warning: ‘Nan::Maybe<bool> Nan::ForceSet(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::PropertyAttribute)’ is deprecated [-Wdeprecated-declarations]
+   Nan::ForceSet(target, Nan::New<v8::String>("NULL").ToLocalChecked(), WrapNullPointer(), static_cast<PropertyAttribute>(ReadOnly|DontDelete));
+        ^
+In file included from ../../nan/nan.h:197:0,
+                 from ../src/binding.cc:7:
+../../nan/nan_maybe_43_inl.h:116:35: note: declared here
+ NAN_DEPRECATED inline Maybe<bool> ForceSet(
+                                   ^
+../src/binding.cc:644:8: warning: ‘Nan::Maybe<bool> Nan::ForceSet(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::PropertyAttribute)’ is deprecated [-Wdeprecated-declarations]
+   Nan::ForceSet(target, Nan::New<v8::String>("NULL").ToLocalChecked(), WrapNullPointer(), static_cast<PropertyAttribute>(ReadOnly|DontDelete));
+        ^
+In file included from ../../nan/nan.h:197:0,
+                 from ../src/binding.cc:7:
+../../nan/nan_maybe_43_inl.h:116:35: note: declared here
+ NAN_DEPRECATED inline Maybe<bool> ForceSet(
+                                   ^
+../src/binding.cc:644:142: warning: ‘Nan::Maybe<bool> Nan::ForceSet(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::PropertyAttribute)’ is deprecated [-Wdeprecated-declarations]
+   Nan::ForceSet(target, Nan::New<v8::String>("NULL").ToLocalChecked(), WrapNullPointer(), static_cast<PropertyAttribute>(ReadOnly|DontDelete));
+                                                                                                                                              ^
+In file included from ../../nan/nan.h:197:0,
+                 from ../src/binding.cc:7:
+../../nan/nan_maybe_43_inl.h:116:35: note: declared here
+ NAN_DEPRECATED inline Maybe<bool> ForceSet(
+                                   ^
+npm WARN discord.js@11.2.1 requires a peer of bufferutil@^3.0.2 but none is installed. You must install peer dependencies yourself.
+npm WARN discord.js@11.2.1 requires a peer of erlpack@hammerandchisel/erlpack but none is installed. You must install peer dependencies yourself.
+npm WARN discord.js@11.2.1 requires a peer of opusscript@^0.0.3 but none is installed. You must install peer dependencies yourself.
+npm WARN discord.js@11.2.1 requires a peer of sodium@^2.0.1 but none is installed. You must install peer dependencies yourself.
+npm WARN discord.js@11.2.1 requires a peer of libsodium-wrappers@^0.5.4 but none is installed. You must install peer dependencies yourself.
+npm WARN discord.js@11.2.1 requires a peer of uws@^0.14.5 but none is installed. You must install peer dependencies yourself.
+

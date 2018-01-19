@@ -1,0 +1,24 @@
+branches:
+  only:
+    - master
+    - dev
+skip_tags: true
+skip_commits:
+  message: /(\[skip appveyor\]|\[appveyor skip\])/
+image:
+  - Visual Studio 2015
+  - Visual Studio 2017
+clone_depth: 1
+install:
+  - choco install nodejs
+  - npm install
+platform: x64
+build: off
+before_test:
+  - cp settings\credentials_example.json settings\credentials.json
+  - cp settings\config_example.json settings\config.json
+test_script:
+  - node --version
+  - npm --version
+  - npm test
+deploy: off
